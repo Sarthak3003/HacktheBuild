@@ -17,5 +17,5 @@ Navigate to hackthebuildfrontend and run the code
 then run
 `npm start`
 
-### While runing the live cam, a seperate window is created in the background, Open that window to see live demonstration.
-### Press `q` to exit the window and then see the results
+#### While runing the live cam, a seperate window is created in the background, Open that window to see live demonstration.
+#### Press `q` to exit the window and then see the results
