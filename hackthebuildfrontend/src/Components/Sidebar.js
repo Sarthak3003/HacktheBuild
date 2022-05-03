@@ -50,16 +50,16 @@ function ResponsiveDrawer(props) {
                     />
                 </ListItem>
             </List>
-            {/* <Divider />
+            <Divider />
             <List>
-                <ListItem button onClick={() => navigate('/webinars')}>
+                <ListItem button onClick={() => navigate('/stats')}>
                     <ListItemIcon>
-                        <CalendarMonthIcon />
+                        {/* <CalendarMonthIcon /> */}
                     </ListItemIcon>
-                    <ListItemText primary="Webinars" />
+                    <ListItemText primary="Daily Statistics" />
                 </ListItem>
             </List>
-            <Divider />
+            {/* <Divider />
             <List>
                 <ListItem button onClick={() => navigate('/news')}>
                     <ListItemIcon>
@@ -134,7 +134,6 @@ function ResponsiveDrawer(props) {
                     backgroundColor: '#E8EAED',
                 }}
             >
-                <Toolbar />
                 {children}
             </Box>
         </Box>
