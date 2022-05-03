@@ -4,13 +4,14 @@ import { BrowserRouter as Router, Route, Routes, Outlet, Navigate } from 'react-
 import Sidebar from './Components/Sidebar'
 import Chart from './Components/Chart';
 import Stats from './Pages/Stats';
+import LiveCamPage from './Pages/LiveCamPage';
 
 function App() {
   return (
     <>
       <Router>
         <Routes>
-          <Route exact path='/' element={<Sidebar />} />
+          <Route exact path='/' element={<LiveCamPage />} />
           <Route exact path='/stats' element={<Stats />} />
         </Routes>
       </Router>
